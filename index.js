@@ -7,7 +7,8 @@ const messages = [
 	'My Chains are Broken',
 	'Do or Do Not, there is no Try',
 	'Let the Force Flow through You',
-	'Luke, I am Your Father'
+	'Luke, I am Your Father',
+	'I Have a Bad Feeling about This'
 ];
 
 const randomMessage = () => {
