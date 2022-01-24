@@ -1,10 +1,13 @@
 const messages = [
-	'Hello there', 
-	'You underestimate my power', 
-	'Don\'t try it',
-	'This is the way',
-	'May the force be with you',
-	'My chains are broken'
+	'Hello There', 
+	'You Underestimate My Power', 
+	'Don\'t Try It',
+	'This is the Way',
+	'May the Force be with You',
+	'My Chains are Broken',
+	'Do or Do Not, there is no Try',
+	'Let the Force Flow through You',
+	'Luke, I am Your Father'
 ];
 
 const randomMessage = () => {
