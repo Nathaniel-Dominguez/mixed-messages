@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nathaniel-Dominguez/mixed-messages/issues"
   },
-  "homepage": "https://github.com/Nathaniel-Dominguez/mixed-messages#readme"
+  "homepage": "https://github.com/Nathaniel-Dominguez/mixed-messages#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
