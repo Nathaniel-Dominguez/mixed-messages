@@ -19,18 +19,43 @@
   <link rel="icon" href="img/favicon.png">
 
 </head>
-
 <body>
+<div id="loader"></div>
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
 
-  <div id="loader"></div>
+    <div class="container">
 
-  <h1>Mixed, messages!</h1>
+      <div class="masthead clearfix">
+        <div class="container inner">
+          <h3 class="masthead-brand">Star Wars Messages</h3>
+<!--           <nav>
+            <ul class="nav masthead-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav> -->
+        </div>
+      </div>
 
-  <button event='click' src='randomMessage()' type="button" onclick="randomMessage()"> Click me to generate random message</button>
+      <div class="inner cover">
+        <h1 class="cover-heading">Recieve Transmissions</h1>
+        <p class="lead">Click the button to hear a random message from the Star Wars Universe</p>
+        <p class="lead">
+        	<button class="btn btn-lg btn-default" event='click' src='randomMessage()' type="button" onclick="randomMessage()"> Click me to generate random message</button>
+			<br></br>
+			<p id="text"></p>
+        </p>
+      </div>
 
-  <br></br>
+    </div>
 
-  <p id="text"></p>
+  </div>
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
 
